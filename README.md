@@ -1,2 +1,2 @@
-# Rest_Sharp_Demo_Project
+# RestSharp Demo Project
 Demo Sample Restsharp Testing api.github repo issues
