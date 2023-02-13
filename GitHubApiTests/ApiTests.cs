@@ -17,9 +17,9 @@ namespace GitHubApiTests
 
         private RestClient client;
         private const string baseUrl = "https://api.github.com";
-        private const string partialUrl = "/repos/user/project_name/issues";
-        private const string username = "Yourusername";
-        private const string password = "Yourpassword";
+        private const string partialUrl = "/repos/{user}/{project_name}/issues";
+        private const string username = "{username}";
+        private const string password = "{password}";
 
 
         [SetUp]
